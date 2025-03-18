@@ -20,8 +20,8 @@ const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
-            firstname: "hitesh",
-            lastname: "choudhary"
+            firstname: "prince",
+            lastname: "singh"
         }
     }
 }
@@ -67,19 +67,19 @@ users[1].email
 const course = {
     coursename: "js in hindi",
     price: "999",
-    courseInstructor: "hitesh"
+    courseInstructor: "prince "
 }
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course //destructure of objects....
 
 // console.log(courseInstructor);
 console.log(instructor);
 
 // {
-//     "name": "hitesh",
-//     "coursename": "js in hindi",
+//     "name": "prince",
+//     "coursename": "js in hindi,
 //     "price": "free"
 // }
 
