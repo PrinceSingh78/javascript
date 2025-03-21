@@ -32,7 +32,7 @@ function loginUserMessage(username = "prince"){
 const user = loginUserMessage()
 console.log(user);
 
-
+ 
 function calculateCartPrice(...num1){ // spread operator or rest operator 
     return num1
 }
